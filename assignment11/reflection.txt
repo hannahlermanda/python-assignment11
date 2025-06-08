@@ -1,0 +1,16 @@
+# Task 6: Reflection
+
+1. Reflect on the differences between static and interactive visualizations
+Static visualizations are easier and faster to build, but don't allow the user to easily interact with the data in ways like zooming in (focusing on specific parts), filtering, and exploring the data that might be more digestible to the user.
+Interactive visualizations take longer to compile and build, but provide a deeper experience for users to explore data in ways that can't be done in static visualizations.
+
+2.Write a short paragraph discussing the advantages of using dashboards for real-time data exploration.
+Dashboards are a more professional way to show off data visualizations.
+The data visualizations on dashboards are interactive, so users can play around with the graphics and explore the data deeper.
+Other insights can be made through the addition of sliders, dropdowns, and other features that allow users to see the data differently.
+The data can also be updated and changed in real-time, which is more efficient when working on long-term projects with incoming data.
+
+3.Explain how interactive tools like Plotly and Dash can improve data communication in professional settings.
+Plotly and Dash allow you to make professional dashboards with interactive visualizations. 
+With interactive visualizations, data stories can be told with more depth and the user can explore the data in ways that make sense to them.
+Plotly is a library that lets you create the interactive visualizations in real-time, and Dash is a platform that allows you to publically publish and share them on the web. 
