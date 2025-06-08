@@ -8,6 +8,7 @@ df = pldata.gapminder() # This loads one of the datasets
 # Initialize Dash app
 app = Dash(__name__) # This creates the app object, to wich various things are added below. 
 # __name__ is the name of the running Python module, which is your main module in this case
+server = app.server
 
 # Layout: This section creates the HTML components
 app.layout = html.Div([ # This div is for the dropdown you see at the top, and also for the graph itself
@@ -32,4 +33,3 @@ def update_graph(country): # This function is what actually does the plot, by ca
 # Run the app
 if __name__ == "__main__": # if this is the main module of the program, and not something included by a different module
     app.run(debug=True) # start the Flask web server
-    server = app.server
